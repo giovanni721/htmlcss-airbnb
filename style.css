@@ -4,7 +4,15 @@
     padding: 0;
 }
 
-div p{
+#overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+div h1{
     font-size: 120px;
     color: white;
     text-align: center;
