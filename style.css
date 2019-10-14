@@ -1,0 +1,42 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+div p{
+    font-size: 120px;
+    color: white;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+
+.roma{
+    background-image: url("immagine_roma.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.copenaghen{
+    background-image: url("immagine_cop.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.tokyo{
+    background-image: url("immagine_tokyo.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
